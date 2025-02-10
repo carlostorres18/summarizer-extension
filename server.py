@@ -12,4 +12,4 @@ async def summarize_text(data: dict):
     summary = summarizer(text, max_length=150, min_length=50, do_sample=False)
     return {"summary": summary[0]["summary_text"]}
 
-# run the server: uvicorn server:app --host 127.0.0.2 --port 8000
+# run the server: uvicorn server:app --host
