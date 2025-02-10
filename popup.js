@@ -13,10 +13,6 @@ function extractTextAndSummarize(){
     let paragraphs = document.querySelectorAll("p");
     let text="";
 
-    // AI API
-    // SORRY CANT SHARE MY API KEY :P
-    // UNLESS....
-
     fetch(url, {
         method: "POST",
         headers: {
